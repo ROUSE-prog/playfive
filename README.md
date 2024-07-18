@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# p5.js Tutorial and Playground Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the p5.js Tutorial and Playground Web App! This project is designed to help users learn and experiment with p5.js, a popular JavaScript library for creating graphic and interactive experiences.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo: [Demo Link]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Welcome Dashboard**: Provides quick access to tutorials, a playground for coding, and community highlights.
+- **Tutorials**: Step-by-step guides to help you get started with p5.js and build various projects.
+- **Playground**: A code editor where you can write and run your p5.js sketches in real-time.
+- **Community Highlights**: Showcases projects and contributions from the community.
+- **Recent Projects**: Quickly access your most recent p5.js projects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project, you need to have Node.js and npm installed. You can download them from [Node.js](https://nodejs.org/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/your-username/p5-tutorial-app.git
+   cd p5-tutorial-app
+2. Install the dependencies:
+    
+    ```npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+    
+    ```npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open your browser and navigate to http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Home Page
+Press the spacebar to enter the main dashboard.
+Dashboard
+Tutorials: Access various p5.js tutorials.
+Playground: Write and run your own p5.js sketches.
+Community: View and interact with community projects.
 
-## Learn More
+6. Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+p5-tutorial-app/
+├── public/
+│   ├── shaders/
+│   │   ├── vertex.vert
+│   │   └── fragment.frag
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.js
+│   │   ├── Dashboard.css
+│   │   ├── HomePage.js
+│   │   ├── P5Wrapper.js
+│   │   ├── SketchDisplay.js
+│   │   ├── Tutorials.js
+│   │   ├── Playground.js
+│   │   ├── Community.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
-### Code Splitting
+Steps to Contribute
+Fork the repository
+Create a new branch: git checkout -b my-feature-branch
+Make your changes
+Commit your changes: git commit -m 'Add some feature'
+Push to the branch: git push origin my-feature-branch
+Submit a pull request
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Acknowledgements
+p5.js
+React
+react-codemirror2
+CodeMirror

@@ -1,0 +1,16 @@
+.playground {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .editor-container {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .sketch-container {
+    width: 50%;
+    height: 100%;
+    background-color: #f4f4f4;
+  }
+  
