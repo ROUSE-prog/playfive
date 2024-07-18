@@ -32,13 +32,14 @@ To run this project, you need to have Node.js and npm installed. You can downloa
    ```bash
    git clone https://github.com/your-username/p5-tutorial-app.git
    cd p5-tutorial-app
+   
 2. Install the dependencies:
     
-    ```npm install
+    npm install
 
 3. Start the development server:
     
-    ```npm start
+    npm start
 
 4. Open your browser and navigate to http://localhost:3000.
 
