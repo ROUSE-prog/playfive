@@ -52,33 +52,8 @@ Tutorials: Access various p5.js tutorials.
 Playground: Write and run your own p5.js sketches.
 Community: View and interact with community projects.
 
-6. Project Structure
 
-p5-tutorial-app/
-├── public/
-│   ├── shaders/
-│   │   ├── vertex.vert
-│   │   └── fragment.frag
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Dashboard.js
-│   │   ├── Dashboard.css
-│   │   ├── HomePage.js
-│   │   ├── P5Wrapper.js
-│   │   ├── SketchDisplay.js
-│   │   ├── Tutorials.js
-│   │   ├── Playground.js
-│   │   ├── Community.js
-│   ├── App.css
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-├── package.json
-└── README.md
-
-7. Contributing
+6. Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
 Steps to Contribute
@@ -91,7 +66,7 @@ Submit a pull request
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-8. Acknowledgements
+7. Acknowledgements
 p5.js
 React
 react-codemirror2
