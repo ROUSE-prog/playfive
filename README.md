@@ -1,10 +1,8 @@
-# p5.js Tutorial and Playground Web App
+# Playfive
 
 Welcome to the p5.js Tutorial and Playground Web App! This project is designed to help users learn and experiment with p5.js, a popular JavaScript library for creating graphic and interactive experiences.
 
 ## Table of Contents
-
-- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -12,10 +10,6 @@ Welcome to the p5.js Tutorial and Playground Web App! This project is designed t
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-
-## Demo
-
-Check out the live demo: [Demo Link]
 
 ## Features
 
